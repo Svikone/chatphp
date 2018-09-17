@@ -1,0 +1,53 @@
+body{
+    padding: 0px;
+    background: #9e9e9e;
+    margin: 0px;
+    input{
+        outline: none;
+        border: none;
+        padding: 10px;
+    }
+    
+    .container{
+        width: 232px;
+        background: #499ed7;
+        height: 60%;
+        position: fixed;
+        .chat{
+            margin: 10px;
+            height: 73%;
+            .wrapper{
+                .name_chat{
+                    color:#499ed7;
+                }
+                word-wrap: break-word;
+                flex-direction: column;
+                padding: 5px;
+                display: flex;
+                background: white;
+                border-radius: 5px;
+                margin: 3px;
+            }
+        }
+        .menu{
+            background: white;
+            display: flex;
+            flex-direction: column;
+            .block{
+                display: flex;
+                .btn{
+                    cursor: pointer;
+                    padding: 10px;
+                    img{
+                        width: 23px;
+                    }
+                }
+                .inp{
+                    // outline: none;
+                    // border: none;
+                    // padding: 10px;
+                }
+            }
+        }
+    }
+}
